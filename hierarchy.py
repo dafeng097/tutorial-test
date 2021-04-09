@@ -125,4 +125,4 @@ ax.scatter(raw_data[raw_data['Clustering'] ==6].iloc[:,8], raw_data[raw_data['Cl
 ax.view_init(elev=45,azim=60)#改变绘制图像的视角,即相机的位置,azim沿着z轴旋转，elev沿着y轴
 ax.set_zlabel("Monetary")
 ax.set_ylabel("Frequency")
-ax.set_xlabel("Recency")
+ax.set_xlabel("Recency")Hello
