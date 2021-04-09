@@ -15,7 +15,7 @@ from sklearn.metrics import pairwise_distances
 from sklearn.metrics import silhouette_score
 from sklearn.metrics import calinski_harabaz_score
 from sklearn.metrics import davies_bouldin_score
-
+import os
 
 raw_data = pd.read_excel('alldatafrequency=2.xlsx')
 data = raw_data.iloc[:,1:5].values
